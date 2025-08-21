@@ -1,8 +1,70 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+	ViewData["Title"] = "Gerenciador de Interclasses";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container py-5">
+
+	<div class="text-center mb-5">
+		<h1 class="display-4 fw-bold" style="color: #d4af37;">🏆 Seja Bem-Vindo ao teu Interclasses</h1>
+		<p class="lead text-muted">Organize o seu time de uma maneira moderna, organizada e única!</p>
+	</div>
+
+	<div class="row g-4 mb-5 justify-content-center">
+
+		<div class="col-md-3">
+			<div class="card shadow-lg border-0 h-100 text-center">
+				<div class="card-body">
+					<h5 class="fw-bold">Times</h5>
+					<p>Gerencie as equipes.</p>
+					<a href="/Time" class="btn btn-outline-success">Ver Times</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-3">
+			<div class="card shadow-lg border-0 h-100 text-center">
+				<div class="card-body">
+					<h5 class="fw-bold">Jogadores</h5>
+					<p>Cadastre e visualize os atletas.</p>
+					<a href="/Jogador" class="btn btn-outline-warning">Ver Jogadores</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-3">
+			<div class="card shadow-lg border-0 h-100 text-center">
+				<div class="card-body">
+					<h5 class="fw-bold">Partidas</h5>
+					<p>Agende e acompanhe os jogos.</p>
+					<a href="/Partida" class="btn btn-outline-primary">Ver Partidas</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-3">
+			<div class="card shadow-lg border-0 h-100 text-center">
+				<div class="card-body">
+					<h5 class="fw-bold">Regulamento</h5>
+					<p>Consulte as regras do campeonato.</p>
+					<a href="/Regulamento" class="btn btn-outline-secondary">Ver Regulamento</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="text-center mt-5 text-muted w-100">
+		<hr class="mx-auto" style="width: 80%;" />
+		<p class="mb-0">Desenvolvido para gerenciar Interclasses</p>
+
+		<!-- Quadro de Inovação -->
+		<div class="card shadow-sm border-0 mx-auto mt-4" style="max-width: 600px;">
+			<div class="card-body">
+				<h5 class="fw-bold text-primary">Inovação Tecnológica</h5>
+				<p class="text-muted mb-2">
+					Uma solução moderna que facilita a vida de <strong>estudantes</strong> e <strong>docentes</strong>,
+					tornando o gerenciamento dos interclasses muito mais simples e organizado.
+				</p>
+			</div>
+		</div>
+	</footer>
 </div>
